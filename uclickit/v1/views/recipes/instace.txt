@@ -1,0 +1,3 @@
+var recipe = new recipe ({name: "Pancakes});
+recipe.ingredients.push({ingredient: 'sugar', measure: 'Tbsp'});
+console.log(recipe.toObject);

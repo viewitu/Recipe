@@ -1,0 +1,57 @@
+<% include ../partials/header %>
+<div class="container">
+    <div class="row">
+        <h1 style="text-align: center;" >Enter A New Recipe</h1>
+            <div style="width: 33%; margin: 25px auto; ">
+                <form action="/recipes" method="POST">
+                    <div class = "form-group"><input class="form-control" type="text" name="name" placeholder="name"></div>
+                    <div class = "form-group"><input class="form-control" type="text" name="preptime" placeholder="preptime"></div>
+                    <div class = "form-group"><input class="form-control" type="text" name="cooktime" placeholder="cooktime"></div>
+                    <div class = "form-group"><input class="form-control" type="text" name="cookmethod" placeholder="cookmethod ie oven"></div>
+                    <div class = "form-group"><input class="form-control" type="text" name="ingredients" placeholder="ingredients"></div>
+                    <!--<div class = "form-group"><input class="form-control" type="number" name="price" placeholder="price" min="0.01" step="0.01"> </div>-->
+                    <div class = "form-group"><input class="form-control" type="text" name="image" placeholder="image url"></div>
+                    <div class = "form-group"><input class="form-control" type="text" name="description" placeholder="description"></div>
+                    <div class = "form-group"><input class="form-control" type="text" name="source" placeholder="source"></div>
+                    <div class = "form-group"><button class="btn btn-lg btn-default btn-block btn-primary" >Submit!</button></div>
+                    
+                 </form>
+                 <a  href="/recipes" >Go Back</a>
+            </div>
+        
+       
+    </div>
+</div>
+ <div class="" id="container">
+
+
+        <h1>To-Do List  <i class="fa fa-plus <i></i> "></i> </h1>
+        <input class="AddItem" type="text" name="" value="" placeholder="Add New Item">
+        <ul>
+            <li> <span> <i class="fa fa-eraser"></i> </span> Go to the Grocery Store</li>
+            <li> <span> <i class="fa fa-eraser"></i> </span> Wash and Vacume the Car</li>
+            <li> <span> <i class="fa fa-eraser"></i> </span> Wax the Car</li>
+            <li> <span> <i class="fa fa-eraser"></i> </span> Get Oil Change</li>
+            <li> <span> <i class="fa fa-eraser"></i> </span> Get a New Mirror</li>
+            <li> <span> <i class="fa fa-eraser"></i> </span> Repair AC</li>
+
+        </ul>
+        </div>
+<script type="text/javascript" src="../models/todos.js"></script>
+        <!-- <div class="" id="Grocery">
+
+
+        <h1>Grocery List</h1>
+        <input id=""type="text" name="" value="" placeholder="Add New Item">
+        <ul>
+            <li> <span>X</span> chicken</li>
+            <li> <span>X</span> steak</li>
+            <li> <span>X</span> ham</li>
+            <li> <span>X</span> chips</li>
+            <li> <span>X</span> peanut butter</li>
+            <li> <span>X</span> coke</li>
+
+        </ul>
+        </div> -->
+    <script type="text/javascript" src="assets/js/todos.js"></script>
+<% include ../partials/footer %>
